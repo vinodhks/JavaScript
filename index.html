@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+		<button onclick="numbers.forEach(myfunction)">Achieve</button>
+		<p id="display"></p>
+    <script>var disp = document.getElementById("display");
+	var numbers = ['100%','100%','100%'];
+	console.log(numbers.toString());
+	var process = ['productivity', 'quality', 'cce'];
+	console.log(process.toString());
+
+  function myfunction(item,index){
+	
+	disp.innerHTML = disp.innerHTML+process[index]+":"+item+"</br>";}</script>
+  
+
+</body></html>
